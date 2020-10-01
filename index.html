@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=Test, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/font-awesome.css" />
+    <link rel="stylesheet" href="./css/site-footer.css" />
+    <link rel="stylesheet" href="./css/card.css" />
+    <link rel="stylesheet" href="./css/site.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Kopano Job Portal</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarColor01"
+        aria-controls="navbarColor01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Menu</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#"
+                ><i class="fa fa-search"></i> Find a Job</a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"
+                ><i class="fa fa-bell-o"></i> Create an Alert</a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"
+                ><i class="fa fa-tasks"></i> My Saved Jobs</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 style="color: whitesmoke" role="heading" aria-level="1">
+          Find your dream career
+        </h1>
+
+        <p class="search-header-ticker">
+          <strong>7447 </strong> Jobs in South Africa
+        </p>
+
+        <div class="container">
+          <div
+            class="row main-search job_search position-relative flexcenter flex-center"
+            data-control="job-search-bar"
+          >
+            <div class="main-search-type">
+              <input
+                type="text"
+                id="SearchInput"
+                class="form-control inSearch"
+                aria-label="Enter search Job Title, Skill or Company"
+                placeholder="Job Title, Skill or Company"
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="main-search-location">
+              <input
+                type="text"
+                id="LocationInput"
+                aria-label="Enter location"
+                class="form-control locationSearchBox"
+                placeholder="Location"
+                autocomplete="off"
+              />
+            </div>
+
+            <div
+              class="main-search-btn text-center no-padding-mobile-right pb-15"
+            >
+              <button
+                id="btnSearch"
+                class="btn btn-primary btn-srch"
+                aria-label="search"
+              >
+                <i
+                  data-control="icon"
+                  class="fa fa-search"
+                  aria-hidden="true"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Recent Jobs</h2>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://picsum.photos/200/150/?random
+"
+            />
+            <div class="card-block">
+              <h4 class="card-title">Support Analyst</h4>
+              <div class="card-text">
+                <p>Blue Label Telecoms</p>
+                <p>Johannesburg, Gauteng, South</p>
+              </div>
+            </div>
+            <div class="card-footer">
+              <span class="float-right">Joined in 2013</span>
+              <span><i class=""></i>75 Friends</span>
+              <button class="btn btn-success btn-outline">Apply</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <h2>Trending Jobs</h2>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://picsum.photos/200/150/?random
+"
+            />
+            <div class="card-block">
+              <h4 class="card-title">Support Analyst</h4>
+              <div class="card-text">
+                <p>Blue Label Telecoms</p>
+                <p>Johannesburg, Gauteng, South</p>
+              </div>
+            </div>
+            <div class="card-footer">
+              <span class="float-right">Joined in 2013</span>
+              <span><i class=""></i>75 Friends</span>
+              <button class="btn btn-success btn-outline">Apply</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--footer starts from here-->
+    <footer style="margin-top: 100px;" class="footer">
+      <div class="container bottom_border">
+        <div class="row">
+          <div class="col-sm-4 col-md col-sm-4 col-12 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+            <!--headin5_amrc-->
+            <p class="mb10">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s
+            </p>
+            <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35</p>
+            <p><i class="fa fa-phone"></i> +91-9999878398</p>
+            <p><i class="fa fa fa-envelope"></i> info@example.com</p>
+          </div>
+
+          <div class="col-sm-4 col-md col-6 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+            <!--headin5_amrc-->
+            <ul class="footer_ul_amrc">
+              <li><a href="http://webenlance.com">Image Rectoucing</a></li>
+              <li><a href="http://webenlance.com">Clipping Path</a></li>
+              <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+              <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+              <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+              <li><a href="http://webenlance.com">Image Cropping</a></li>
+            </ul>
+            <!--footer_ul_amrc ends here-->
+          </div>
+
+          <div class="col-sm-4 col-md col-6 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+            <!--headin5_amrc-->
+            <ul class="footer_ul_amrc">
+              <li><a href="http://webenlance.com">Remove Background</a></li>
+              <li>
+                <a href="http://webenlance.com">Shadows & Mirror Reflection</a>
+              </li>
+              <li><a href="http://webenlance.com">Logo Design</a></li>
+              <li><a href="http://webenlance.com">Vectorization</a></li>
+              <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+              <li><a href="http://webenlance.com">Image Cropping</a></li>
+            </ul>
+            <!--footer_ul_amrc ends here-->
+          </div>
+
+          <div class="col-sm-4 col-md col-12 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+            <!--headin5_amrc ends here-->
+
+            <ul class="footer_ul2_amrc">
+              <li>
+                <a href="#"
+                  ><i class="fab fa-twitter fleft padding-right"></i>
+                </a>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing...<a href="#"
+                    >https://www.lipsum.com/</a
+                  >
+                </p>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fab fa-twitter fleft padding-right"></i>
+                </a>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing...<a href="#"
+                    >https://www.lipsum.com/</a
+                  >
+                </p>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fab fa-twitter fleft padding-right"></i>
+                </a>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing...<a href="#"
+                    >https://www.lipsum.com/</a
+                  >
+                </p>
+              </li>
+            </ul>
+            <!--footer_ul2_amrc ends here-->
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="foote_bottom_ul_amrc">
+          <li><a href="http://webenlance.com">Home</a></li>
+          <li><a href="http://webenlance.com">About</a></li>
+          <li><a href="http://webenlance.com">Services</a></li>
+          <li><a href="http://webenlance.com">Pricing</a></li>
+          <li><a href="http://webenlance.com">Blog</a></li>
+          <li><a href="http://webenlance.com">Contact</a></li>
+        </ul>
+        <!--foote_bottom_ul_amrc ends here-->
+        <p class="text-center">
+          Copyright @2017 | Designed With by <a href="#">Your Company Name</a>
+        </p>
+
+        <ul class="social_footer_ul">
+          <li>
+            <a href="http://webenlance.com"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="http://webenlance.com"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="http://webenlance.com"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+        <!--social_footer_ul ends here-->
+      </div>
+    </footer>
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/bootstrap.js"></script>
+  </body>
+</html>
